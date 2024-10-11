@@ -1,3 +1,5 @@
+# ATO1
+
 def add(a, b):
     return a + b
 
@@ -22,3 +24,12 @@ def mod(a, b):
     if b == 0:
         raise ValueError('Division by 0 error')
     return a % b
+
+
+# ATO2
+
+def is_palindrome(s):
+    return s == s[::-1]
+
+def sort_list(numbers):
+    return sorted(numbers)
